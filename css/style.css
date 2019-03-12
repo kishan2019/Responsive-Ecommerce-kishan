@@ -1,0 +1,180 @@
+.container {
+    height: 800px;
+    border: 1px solid red;
+    width: 1000px;
+}
+
+.myheader {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0 50px 0;
+    font-size: 1rem;
+
+}
+
+.cart-logo {
+    margin-left: 45%;
+}
+
+
+.heading-top a {
+    letter-spacing: 0.3em;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: rem;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu li a {
+
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+
+.menu li a:hover {
+    background-color: rgb(155, 150, 150);
+    color: white;
+}
+
+.man-img {
+    background-image: url(../images/mens_outerwear.jpg);
+    min-height: 20rem;
+    background-size: center;
+    background-repeat: no-repeat;
+
+}
+
+.woman-img {
+    background-image: url(../images/ladies_outerwear.jpg);
+    min-height: 20rem;
+    background-size: center;
+    background-repeat: no-repeat;
+
+}
+
+.cloth-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.calc {
+    text-align: center;
+    padding: 20px;
+    color: grey;
+}
+
+.myheader2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.heading-top2 a {
+    color: black;
+    padding: 8px 44px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    background-color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.adg-img {
+    display: flex;
+}
+
+.man-img1 {
+    background-image: url(../images/mens_tshirts.jpg);
+    min-height: 20rem;
+    background-size: center;
+    background-repeat: no-repeat;
+    width: 50%;
+
+}
+
+.woman-img1 {
+    background-image: url(../images/ladies_tshirts.jpg);
+    min-height: 20rem;
+    background-size: center;
+    background-repeat: no-repeat;
+    width: 50%;
+
+}
+
+.myheader3 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 100;
+}
+
+.down {
+    box-sizing: border-box;
+    width: 120px;
+    padding: 6px;
+    margin: 8px auto 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.item-main{
+    display: flex;
+}
+.item-container{
+    width: 50%;
+    /* border: 1px solid red; */
+    height: 30em;
+    max-height: 100%;   
+}
+
+.detail {
+    width: 50%;
+    max-width: 500px;
+    transition: opacity 0.4s;
+    color: black;
+    /* border: 1px solid gray; */
+    font-family: serif;
+}
+
+.price {
+    margin: 16px 0 40px;
+    font-size: 16px;
+    color: gray;
+}
+.drop-parrent{
+    font-size: 16px;
+    padding: 16px 24px 16px 70px;
+}
+
+.drop-box {
+    width: 100%;
+    /* -webkit-appearance: none; */
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+   
+}
+.desc{
+    color: gray;
+}
