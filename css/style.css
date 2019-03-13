@@ -7,12 +7,11 @@
 .myheader {
     display: flex;
     justify-content: flex-end;
-    padding: 20px 0 50px 0;
+    padding: 20px 0 20px 0;
     font-size: 1rem;
 
 }
-
-.cart-logo {
+.cart-logo{
     margin-left: 45%;
 }
 
@@ -27,11 +26,15 @@
     font-size: rem;
 
 }
+.navigation{
+    display: none;
+}
 
 .menu {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding-top: 20px;
 }
 
 .menu li a {
@@ -49,20 +52,29 @@
 }
 
 .man-img {
-    background-image: url(../images/mens_outerwear.jpg);
-    min-height: 20rem;
-    background-size: center;
-    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
 
 }
+.man-img>img{
+    max-height: 100%;
+}
 
-.woman-img {
-    background-image: url(../images/ladies_outerwear.jpg);
-    min-height: 20rem;
-    background-size: center;
-    background-repeat: no-repeat;
+.man-img1 {
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    overflow: hidden;
 
 }
+.man-img1>img{
+    max-height: 100%;
+}
+
 
 .cloth-item {
     background-color: rgba(255, 255, 255, 0.8);
@@ -74,7 +86,7 @@
 
 .calc {
     text-align: center;
-    padding: 20px;
+    padding: 50px 20px 0 20px;
     color: grey;
 }
 
@@ -96,29 +108,11 @@
     background-color: #FFF;
     font-size: 16px;
     font-weight: 500;
-    /* font-family: Arial, Helvetica, sans-serif; */
+
 }
 
 .adg-img {
     display: flex;
-}
-
-.man-img1 {
-    background-image: url(../images/mens_tshirts.jpg);
-    min-height: 20rem;
-    background-size: center;
-    background-repeat: no-repeat;
-    width: 50%;
-
-}
-
-.woman-img1 {
-    background-image: url(../images/ladies_tshirts.jpg);
-    min-height: 20rem;
-    background-size: center;
-    background-repeat: no-repeat;
-    width: 50%;
-
 }
 
 .myheader3 {
@@ -143,7 +137,6 @@
 }
 .item-container{
     width: 50%;
-    /* border: 1px solid red; */
     height: 30em;
     max-height: 100%;   
 }
@@ -153,7 +146,6 @@
     max-width: 500px;
     transition: opacity 0.4s;
     color: black;
-    /* border: 1px solid gray; */
     font-family: serif;
 }
 
@@ -168,13 +160,83 @@
 }
 
 .drop-box {
-    width: 100%;
-    /* -webkit-appearance: none; */
+    width: 85%;
     background-color: transparent;
-    padding: 20px;
+    padding: 14px;
+    border: none;
+    outline: none;
+   
+}
+
+.drop-box2 {
+
+    background-color: transparent;
+    padding: 14px;
     border: none;
    
 }
+
 .desc{
     color: gray;
 }
+
+.input-box {
+    width: -webkit-fill-available;
+    padding: 14px;
+    font-size: 15px;
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .navigation {
+        float: left;
+        width: 20px;
+        display: flex;
+
+    }
+    
+    .man-img {
+    
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+        height: 40vh;
+    
+    }
+    .man-img>img{
+        max-height: 100%;
+    }
+    
+    .man-img1 {
+        
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        overflow: hidden;
+        height: 40vh;
+    
+    }
+    .man-img1>img{
+        max-height: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .myheader {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0 20px 0;
+        font-size: 1rem;
+    
+    }
+    .cart-logo{
+        margin-left: 0px;
+    }
+    
+  }
