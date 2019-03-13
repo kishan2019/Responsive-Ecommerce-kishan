@@ -213,9 +213,8 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    padding-right: 70px;
     outline: none;
-   
+    margin-right: 70px;
 }
 
 .desc{
