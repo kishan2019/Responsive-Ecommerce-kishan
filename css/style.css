@@ -214,6 +214,7 @@
     border-right: none;
     border-top: none;
     outline: none;
+    /* margin-right: 70px; */
 }
 
 .desc{
@@ -247,16 +248,16 @@
 
 .my-section{
 
-    margin-left: 10%;
-    margin-right: 10%;
-     margin-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+     padding-bottom: 10%;
    
 
 }
 .my-section1{
-    margin-left: 10%;
-    margin-right: 10%;
-     margin-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+     padding-bottom: 10%;
 }
 
 /* Animation in input */
@@ -264,9 +265,6 @@
     display: flex;
     flex-direction: column;
     width: 75%;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid black;
   }
 
 .group{
@@ -290,7 +288,7 @@ input {
 
 .line {
   position: relative;
-  height : 0px;
+  height : 2.5px;
   width: 0%;
   background-color: black;
   align-self: center;
