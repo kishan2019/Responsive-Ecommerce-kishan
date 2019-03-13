@@ -76,7 +76,6 @@
 }
 
 .man-img2 {
-    
     display: flex;
     justify-content: center;
     width: 50%;
@@ -99,17 +98,18 @@
 
 .calc {
     text-align: center;
-    padding: 50px 20px 0 20px;
+     padding: 20px 20px 20px 20px; 
     color: grey;
 }
 
 .myheader2 {
     display: flex;
     justify-content: center;
-    padding: 20px 0 50px 0;
+    padding: 10px 0 80px 0;
     font-size: 1rem;
     text-align: center;
 }
+
 
 .heading-top2 a {
     color: black;
@@ -123,6 +123,20 @@
     font-weight: 500;
 
 }
+.heading-top5 a {
+    color: black;
+    padding: 8px 44px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    background-color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
 
 .adg-img {
     display: flex;
@@ -132,6 +146,9 @@
     display: flex;
     justify-content: space-around;
     font-weight: 100;
+
+    font-size: 1rem;
+    text-align: center;
 }
 .heading-top3{
     display: none;
@@ -181,7 +198,7 @@
 }
 
 .drop-box {
-    width: 85%;
+    width: 100%;
     background-color: transparent;
     padding: 14px;
     border: none;
@@ -196,6 +213,8 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    padding-right: 70px;
+    outline: none;
    
 }
 
@@ -212,6 +231,7 @@
     border-top: none;
     border-right: none;
 }
+
 .item-foot{
    margin-top: 5rem;
 }
@@ -224,6 +244,7 @@
 .checkouthead{
     display: flex;
     font-size: 16px;
+    padding: 0 10% 10% 10%;
 }
 
 .my-section{
@@ -235,11 +256,64 @@
 
 }
 .my-section1{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
      padding-bottom: 10%;
-     /* padding-top: 10%; */
 }
+
+/* Animation in input */
+.group1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+.group{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+label{
+  color:transparent;
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+
+.line {
+  position: relative;
+  height : 2.5px;
+  width: 0%;
+  background-color: black;
+  align-self: center;
+  transition: 0.3s;
+  top: -18px;
+  
+  
+}
+
+.group input:focus~label {
+  color: black;
+  top: -50px;
+  position: relative;
+  
+}
+.group input:focus-within::placeholder {
+  color: transparent;
+}
+.group:focus-within .line {
+  width: 100%;
+
+}
+
+/*end of Animation of input */
 
 @media only screen and (max-width: 800px) {
     .navigation {
@@ -322,9 +396,6 @@
     }
     .item-foot{
         display: none;
-    }
-     .heading-top2{
-        display: none;
     } 
   
     .heading-top4 {
@@ -347,6 +418,11 @@
     .checkouthead{
         display: flex;
         flex-direction: column;
+    }
+    
+    .heading-top5 a {
+       display: none;
+    
     }
 
   }

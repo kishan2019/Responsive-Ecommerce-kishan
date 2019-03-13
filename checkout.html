@@ -20,31 +20,56 @@
 
     <header class="myheader2">
         <div style="font-size: .9rem">
-            <h2 style="font-weight: 300">Checkout</h2>Shop is a demo app - form data will not be sent
+            <h2 style="font-weight: 300">Checkout</h2>Shop is a demo app - form data will not be sent</h2>
         </div>
     </header>
     <form action="#">
-        <section >
+        <section>
 
 
             <div class="checkouthead">
 
-                <div class="my-section">
+                <div class="kish">
                     <p>Account Imformation</p><br>
-                    <input class="input-box" type="email" placeholder="Email" name="myemail"><br>
-                    <input class="input-box" type="number" maxlength="10" name="phone" placeholder="Phone Number"><br>
+                    <div class="group">
+                        <input class="input-box" type="email" name="myemail" placeholder="Email">
+                        <label for="email">Email</label>
+                        <div class="line"></div>
+                    </div>
+                    <div class="group">
+                        <input class="input-box" type="number" maxlength="10" name="phone" placeholder="Phone Number">
+                        <label>Phone Number</label>
+                        <div class="line"></div>
+                    </div>
+
                     <p>Shipping Address</p>
-                    <input class="input-box" type="text" name="Address" placeholder="Address"><br>
-                    <input class="input-box" type="text" name="City" placeholder="City"><br>
+                    <div class="group">
+                        <input class="input-box" type="text" name="Address" placeholder="Address">
+                        <label>Address</label>
+                        <div class="line"></div>
+                    </div>
+                    <div class="group">
+                        <input class="input-box" type="text" name="City" placeholder="City">
+                        <label> City</label>
+                        <div class="line"></div>
+                    </div>
                     <div style="display: flex">
-                        <div> <input style="padding: 14px;font-size: 15px;border-top: none;border-left: none;border-right:none;outline: none;"
-                                type="text" name="State/Province" placeholder="State/Province"></div>
-                        <div> <input style="padding: 14px;font-size: 15px;border-top: none;border-left: none;border-right:none;outline: none;"
-                                type="text" name="Zip/Postal Code" placeholder="Zip/Postal Code"></div>
+                        <div class="group">
+                            <input class="group1" style="padding: 14px;font-size: 15px;"
+                                type="text" name="State/Province" maxlength="10" placeholder="State/Province">
+                            <label> State/Province</label>
+                            <div class="line"></div>
+                        </div>
+                        <div class="group">
+                            <input style="padding: 14px;font-size: 15px;border-top: none;border-left: none;border-right:none;outline: none;"
+                                type="number" name="Zip/Postal Code" maxlength="10" placeholder="Zip/Postal Code">
+                        <label> Zip/Postal Code</label>
+                        <div class="line"></div>
+                        </div>
                     </div>
 
                     <p>Country</p>
-                    <select style="width: 100%;background-color:transparent;padding: 14px; font-size: 15px;border-top: none;border-left: none;border-right: none;">
+                    <select style="width: 100%;background-color:transparent;padding: 14px; font-size: 15px;border-top: none;border-left: none;border-right: none;outline: none;">
                         <option value="United-States">United State</option>
                         <option value="Canada">Canada</option>
                     </select>
@@ -58,10 +83,20 @@
 
                 <div class="my-section1">
                     <p>Payment Method</p><br>
-                    <input class="input-box" type="email" placeholder="Cardholder Name" name="myemail"><br>
-                    <input class="input-box" type="number" maxlength="10" name="phone" placeholder="Card Number"><br>
+                    <div class="group">
+                        <input class="input-box" type="email" placeholder="Cardholder Name" name="myemail">
+                        <label>Cardholder Name</label>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="group">
+                        <input class="input-box" type="number" maxlength="10" name="phone" placeholder="Card Number">
+                        <label> Card Number</label>
+                        <div class="line"></div>
+                    </div>
+
                     <p>Expiry</p>
-                    <div style="display: flex; justify-content: space-around; padding-left: 25px;">
+                    <div style="display: flex; justify-content:space-around; border: none;">
                         <div>
                             <select name="123" id="111" class="drop-box2">
                                 <option value="JAN">JAN</option>
@@ -79,7 +114,7 @@
 
                             </select>
                         </div>
-                        <div>
+                        <div style="padding-left: 20px; padding-right: 20px;">
                             <select name="123" id="111" class="drop-box2">
                                 <option value="2016">2016</option>
                                 <option value="FEB">2017</option>
@@ -96,10 +131,14 @@
 
                             </select>
                         </div>
-                        <div> <input class="input-box" type="text" placeholder="CVV"></div>
+                        <div class="group">
+                            <input class="input-box" type="number" placeholder="CVV">
+                            <label> Card Number</label>
+                            <div class="line"></div>
+                        </div>
                     </div>
 
-                    <div class="heading-top2" style="margin-top: 50px;"><a href="#"> SHOP NOW</a></div>
+                    <div class="heading-top2" style="margin-top: 50px;"><a href="#"> ORDER NOW</a></div>
 
                 </div>
 
