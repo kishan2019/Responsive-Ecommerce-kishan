@@ -193,7 +193,9 @@
 
     background-color: transparent;
     padding: 14px;
-    border: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
    
 }
 
@@ -218,6 +220,25 @@
 }
 .heading-top4{
     display: none;
+}
+.checkouthead{
+    display: flex;
+    font-size: 16px;
+}
+
+.my-section{
+
+    padding-left: 10%;
+    padding-right: 10%;
+     padding-bottom: 10%;
+   
+
+}
+.my-section1{
+    padding-left: 5%;
+    padding-right: 5%;
+     padding-bottom: 10%;
+     /* padding-top: 10%; */
 }
 
 @media only screen and (max-width: 800px) {
@@ -321,6 +342,11 @@
     .heading-top4 > a{
         color: white;
         text-decoration: none;
+    }
+
+    .checkouthead{
+        display: flex;
+        flex-direction: column;
     }
 
   }

@@ -12,7 +12,8 @@
 
 <body>
     <header class="myheader">
-        <div class="heading-top" style="padding-bottom: 2rem"><a href="index.html"> SHOP</a></div>
+        <div class="navigation"><img src="images/navigation.png" alt=""></div>
+        <div class="heading-top"><a href="index.html"> SHOP</a></div>
         <div class="cart-logo"> <a href="#"><img src="images/icons8-shopping-cart-24.png" alt="shoping cart logo"></a>
         </div>
     </header>
@@ -22,12 +23,13 @@
             <h2 style="font-weight: 300">Checkout</h2>Shop is a demo app - form data will not be sent
         </div>
     </header>
+    <form action="#">
+        <section >
 
-    <section style="padding-left:100px;">
 
-        <form action="#">
-            <div style="display: flex;font-size: 16px; padding-left: 30px;">
-                <div style="width: 40%">
+            <div class="checkouthead">
+
+                <div class="my-section">
                     <p>Account Imformation</p><br>
                     <input class="input-box" type="email" placeholder="Email" name="myemail"><br>
                     <input class="input-box" type="number" maxlength="10" name="phone" placeholder="Phone Number"><br>
@@ -46,10 +48,15 @@
                         <option value="United-States">United State</option>
                         <option value="Canada">Canada</option>
                     </select>
+                    <div style="font-size: 1rem; padding-top: 10px;">
+                        <input type="checkbox"> Use different billing Address
+                    </div>
 
 
                 </div>
-                <div style="width: 40%;margin-left: 3rem;">
+
+
+                <div class="my-section1">
                     <p>Payment Method</p><br>
                     <input class="input-box" type="email" placeholder="Cardholder Name" name="myemail"><br>
                     <input class="input-box" type="number" maxlength="10" name="phone" placeholder="Card Number"><br>
@@ -94,16 +101,15 @@
 
                     <div class="heading-top2" style="margin-top: 50px;"><a href="#"> SHOP NOW</a></div>
 
-
                 </div>
 
             </div>
-        </form>
 
 
 
-    </section>
 
+        </section>
+    </form>
     <section>
         <div style="margin-top: 30px" class="calc"> made by kishan singh</div>
         <div class="down">Demo only</div>
