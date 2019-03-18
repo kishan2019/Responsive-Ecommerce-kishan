@@ -15,7 +15,9 @@
 .cart-logo{
     margin-left: 45%;
 }
-
+.cart-logo-1{
+    margin-left: 50%;
+}
 
 .heading-top a {
     letter-spacing: 0.3em;
@@ -316,6 +318,14 @@ input {
 .group:focus-within .line {
   width: 100%;
 
+}
+
+.mydisplay{
+    display: none;
+
+}
+input:checked + .mydisplay{
+    display: block;
 }
 
 /*end of Animation of input */
